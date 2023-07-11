@@ -1,0 +1,101 @@
+body {
+    background-image: url("wall.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .Musica {
+  padding-left: 100px;
+  }
+  
+  .Musica h1 {
+      text-align: center;
+      color: rgb(255, 255, 255);
+      margin-top: 10px;
+  }
+  
+  .Musica p {
+      color: aquamarine;
+      text-align: center;
+      font-size: 18px;
+  }
+  
+  .Musica img {
+      border: 10px solid #000;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  /*----------------------------------------------*/
+  .lista {
+  color: bisque;
+  padding-left: 100px;
+  }
+  
+  .lista h3 {
+      text-align: center;
+      color: rgb(248, 244, 246);
+      margin-top: 10px
+  }
+  
+  .lista ul.sin-numeros {
+      font-size: 20px;
+      padding-left: 0;
+  }
+  
+  .lista ul.sin-numeros li {
+      margin-left: 10rem;
+  }
+  
+  .lista p {
+      font-size: 40px;
+      color: rgb(133, 177, 243);
+      font-size: 20px;
+      padding-left: 0;
+      margin-left: 8.5rem; 
+  }
+  
+  .lista p:hover {
+      color: red;
+  }
+  
+  .lista a {
+      padding-left: 0;
+      margin-left: 20rem; 
+  }
+  /*----------------------------------------------*/
+  /*Los estilos CSS utilizados son los siguientes:
+  list-style-type: none; elimina los marcadores de la lista.
+  background-color: black; establece el color de fondo de la barra en negro.
+  padding: 10px; añade un espacio interno de 10 píxeles alrededor de la barra.
+  margin: 0; elimina el margen exterior de la barra.
+  display: inline-block; hace que los elementos de la lista se muestren en línea y puedan tener un margen derecho de 10 píxeles.
+  text-decoration: none; elimina la decoración de texto subrayado de los enlaces.
+  color: white; establece el color del texto en blanco.
+  .barra li a:hover cambia el color del texto a gris claro cuando se pasa el cursor sobre los enlaces*/
+  .barra {
+      background-color: rgb(8, 8, 8);
+      padding: 10px;
+      margin: 0;
+    }
+    
+    .barra li {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 20px;
+      color: rgb(134, 135, 136);
+    }
+  
+    .barra li:hover {
+      color: rgb(207, 199, 214);
+      font-size: 30px; /* cambia el tamaño cuando se pasa el cursor*/
+    }
+  
+    .barra li a {
+      color: white;
+    }
+    
+    .barra li a:hover {
+      color: rgb(243, 120, 120);
+    }
